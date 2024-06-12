@@ -1,0 +1,30 @@
+@import "../utilities/variables.scss";
+
+
+footer{
+    background-color: rgb(34, 32, 32); 
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: 2px solid $color-texto;
+    
+    
+    p{
+        font-family: $fuente;
+        color: beige;
+        padding: 10px;
+
+    }
+    a{
+        font-family: $fuente;
+        text-decoration: none;
+        color: $color-texto;
+        
+
+    }
+    a:hover{
+        color: purple;
+           
+    }
+}

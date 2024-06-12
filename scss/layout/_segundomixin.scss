@@ -1,0 +1,13 @@
+@mixin estilo-parrafo-secuencia($color, $font, $textalign){
+    color: $color;
+    font-family: $font;
+    text-align: $textalign;
+
+}
+
+
+.segundomixin{
+
+    @include estilo-parrafo-secuencia(white, "Arial", center )
+
+}

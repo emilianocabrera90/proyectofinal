@@ -1,0 +1,31 @@
+@import "../utilities/variables.scss";
+
+
+/*Configuracion fotos fase de gigante roja*/
+
+.textoevolucionestelar p {
+    text-align: center;
+    color: $color-texto;
+    font-family: $fuente;
+
+}
+
+.tituloimagen{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    .faseroja1{
+        width: 500px;
+        height: 500px;
+    }
+    .faseroja2{
+        width: 500px;
+        height: 500px;
+
+    }
+    .faseroja3{
+        width: 500px;
+        height: 500px;
+    }
+   
+}

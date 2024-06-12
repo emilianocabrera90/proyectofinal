@@ -1,0 +1,75 @@
+@import "../utilities/variables.scss";
+
+
+
+header {
+    display: flex;
+    background-color: rgb(34, 32, 32); 
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid $color-texto;
+    
+    
+
+    img{
+        padding-bottom: 10px;
+
+    }
+    
+    nav{
+        ul{
+            display: flex;
+            list-style-type: none;
+            padding-right: 100px;
+
+            li{
+                margin: 5px;
+                a{
+                    text-decoration: none;
+                    color: $color-texto;
+                    font-family: $fuente;
+                    padding-left: 10px;
+
+                }
+                a:hover{
+                    color: purple;
+                    margin: 15px;
+                    transition: 0.5s;
+
+                }
+            }
+        }
+
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        padding-right: 80px;
+
+        a{
+            color: $color-texto;
+            text-decoration: none;
+            font-family: $fuente;
+
+        }
+        a:hover {
+            color: purple;
+            margin: 15px;
+            transition: 0.5s;
+        }
+
+        img{
+            padding-left: 20px;
+            width: 60px;
+
+        }
+    }
+
+    .logo{
+        width: 300px;
+        
+        
+    }
+
+ }

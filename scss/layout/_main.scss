@@ -1,0 +1,83 @@
+@import "../utilities/variables.scss";
+
+
+main{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+    section{
+        h1{
+            color: rgb(195, 187, 34);
+            text-decoration: underline;
+            text-align: center;
+            font-size: 50px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+
+        }
+        h2{
+            color: white;
+            font-size: 25px;
+            margin-bottom: 30px;
+            font-family: $fuente;
+            padding: 20px;
+            text-align: center;
+
+        }
+    }
+
+    section{
+        h4{
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-left: 20px;
+            color: rgb(195, 187, 34);;
+            font-family: $fuente;
+
+        }
+        .subtitulos{
+            p{
+                color: rgb(195, 187, 34);
+                font-family: $fuente;
+
+            }
+
+        }
+        p{
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+        }
+
+        ol{
+            li{
+                color: beige;
+                font-family: $fuente;
+                padding: 5px;
+                margin-left: 65px;
+
+            }
+        }
+        ul{
+            li{
+                color: beige;
+                font-family: $fuente;
+                padding: 5px;
+                margin-left: 60px;
+
+            }
+        }
+        
+    }
+}
+
+a{
+    .logows{
+        position: fixed;
+        right: 35px;
+        bottom: 35px;
+        width: 50px;
+        height: 50px;
+
+    }
+}

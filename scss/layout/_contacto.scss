@@ -1,0 +1,50 @@
+@import "../utilities/variables.scss";
+
+main{
+    h3{
+        color: rgb(195, 187, 34);;
+        font-family: $fuente;
+        margin: 30px;
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+
+    }
+    form{
+        text-align: center;
+        label{
+            display: block;
+            padding: 10px;
+            font-family: $fuente;
+            color: $color-texto;
+
+        }
+        input{
+            border-color: blue;
+            border: 0px;
+            padding: 5px;
+
+        }
+        input:focus {
+            background-color: grey;
+        }
+
+    }
+    section{
+        .contacto{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+
+
+        }
+        p{
+            margin-top: 30px;
+            
+            
+        }
+    }
+    
+}
+

@@ -1,0 +1,380 @@
+header {
+  display: flex;
+  background-color: rgb(34, 32, 32);
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgb(190, 190, 19);
+}
+header img {
+  padding-bottom: 10px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 100px;
+}
+header nav ul li {
+  margin: 5px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(190, 190, 19);
+  font-family: Arial, Helvetica;
+  padding-left: 10px;
+}
+header nav ul li a:hover {
+  color: purple;
+  margin: 15px;
+  transition: 0.5s;
+}
+header div {
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+}
+header div a {
+  color: rgb(190, 190, 19);
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+}
+header div a:hover {
+  color: purple;
+  margin: 15px;
+  transition: 0.5s;
+}
+header div img {
+  padding-left: 20px;
+  width: 60px;
+}
+header .logo {
+  width: 300px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(113, 115, 122);
+  background: radial-gradient(circle, rgb(113, 115, 122) 1%, rgb(93, 92, 59) 5%, rgb(59, 78, 130) 45%, rgb(10, 10, 10) 100%);
+}
+
+* p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+* {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+a:visited {
+  color: blue;
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+main section h1 {
+  color: rgb(195, 187, 34);
+  text-decoration: underline;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+main section h2 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica;
+  padding: 20px;
+  text-align: center;
+}
+main section h4 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+  color: rgb(195, 187, 34);
+  font-family: Arial, Helvetica;
+}
+main section .subtitulos p {
+  color: rgb(195, 187, 34);
+  font-family: Arial, Helvetica;
+}
+main section p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+main section ol li {
+  color: beige;
+  font-family: Arial, Helvetica;
+  padding: 5px;
+  margin-left: 65px;
+}
+main section ul li {
+  color: beige;
+  font-family: Arial, Helvetica;
+  padding: 5px;
+  margin-left: 60px;
+}
+
+a .logows {
+  position: fixed;
+  right: 35px;
+  bottom: 35px;
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  background-color: rgb(34, 32, 32);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-top: 2px solid rgb(190, 190, 19);
+}
+footer p {
+  font-family: Arial, Helvetica;
+  color: beige;
+  padding: 10px;
+}
+footer a {
+  font-family: Arial, Helvetica;
+  text-decoration: none;
+  color: rgb(190, 190, 19);
+}
+footer a:hover {
+  color: purple;
+}
+
+main h3 {
+  color: rgb(195, 187, 34);
+  font-family: Arial, Helvetica;
+  margin: 30px;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+main form {
+  text-align: center;
+}
+main form label {
+  display: block;
+  padding: 10px;
+  font-family: Arial, Helvetica;
+  color: rgb(190, 190, 19);
+}
+main form input {
+  border-color: blue;
+  border: 0px;
+  padding: 5px;
+}
+main form input:focus {
+  background-color: grey;
+}
+main section .contacto {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main section p {
+  margin-top: 30px;
+}
+
+.enlace-amarillo, .enlace-amarillo-extend {
+  display: block;
+  text-align: center;
+  background-color: rgb(190, 190, 19);
+  border-radius: 5px;
+  width: 100px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+  color: black;
+}
+
+.enlace-amarillo:hover, .enlace-amarillo-extend:hover {
+  background-color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  header div a {
+    display: none;
+  }
+  .tituloimagen .faseroja1 {
+    display: none;
+  }
+  .tituloimagen .faseroja2 {
+    display: none;
+  }
+  .tituloimagen .faseroja3 {
+    display: none;
+  }
+  .gridcontainer .grid-item1 {
+    display: none;
+  }
+  .gridcontainer .grid-item2 {
+    display: none;
+  }
+  .gridcontainer .grid-item3 {
+    display: none;
+  }
+  .tituloimagen .faseroja1 {
+    display: none;
+  }
+  .tituloimagen .faseroja2 {
+    display: none;
+  }
+  .tituloimagen .faseroja3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .grid-item1 div .decoracion1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1291px) {
+  nav {
+    display: none;
+  }
+}
+/* Foto de Informacion teorica */
+.evolucionestelar {
+  display: flex;
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  padding-left: 300px;
+  padding-top: 30px;
+}
+
+/* Fotos de Secuencia Principal */
+.titulosecuencia p {
+  color: rgb(190, 190, 19);
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px 250px 150px;
+  gap: 25px;
+  margin: 30px;
+}
+.gridcontainer .grid-item1 {
+  display: grid;
+  background-color: rgb(36, 31, 31);
+  border-radius: 5px;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.gridcontainer .grid-item1 .foto1 {
+  display: flex;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  padding-top: 100px;
+}
+.gridcontainer .grid-item1 .decoracion1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: -400px;
+  left: 1090px;
+}
+
+.grid-item2 {
+  background-color: rgb(36, 31, 31);
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 1/4;
+}
+.grid-item2 img {
+  display: flex;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  padding-top: 100px;
+  padding-right: 15px;
+}
+
+.grid-item3 {
+  background-color: rgb(36, 31, 31);
+  border-radius: 5px;
+  grid-column: 1/3;
+}
+.grid-item3 img {
+  display: flex;
+  margin: auto;
+  margin-left: 90px;
+  width: 1100px;
+  position: relative;
+  bottom: 70px;
+}
+.grid-item3 p {
+  font-family: Arial, Helvetica;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  color: rgb(190, 190, 19);
+}
+
+/*Configuracion fotos fase de gigante roja*/
+.textoevolucionestelar p {
+  text-align: center;
+  color: rgb(190, 190, 19);
+  font-family: Arial, Helvetica;
+}
+
+.tituloimagen {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.tituloimagen .faseroja1 {
+  width: 500px;
+  height: 500px;
+}
+.tituloimagen .faseroja2 {
+  width: 500px;
+  height: 500px;
+}
+.tituloimagen .faseroja3 {
+  width: 500px;
+  height: 500px;
+}
+
+.primermixin {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.segundomixin {
+  color: white;
+  font-family: "Arial";
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

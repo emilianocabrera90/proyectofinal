@@ -1,0 +1,45 @@
+@media  screen and (max-width:768px) {
+    header div a{
+        display: none;
+    }
+    .tituloimagen .faseroja1{
+        display: none;
+    }
+    .tituloimagen .faseroja2{
+        display: none;
+    }
+    .tituloimagen .faseroja3{
+        display: none;
+    }
+
+    .gridcontainer .grid-item1{
+        display: none;
+    }
+    .gridcontainer .grid-item2{
+        display: none;
+    }
+    .gridcontainer .grid-item3{
+        display: none;
+    }
+    .tituloimagen .faseroja1 {
+        display: none;
+    }
+    .tituloimagen .faseroja2 {
+        display: none;
+    }
+    .tituloimagen .faseroja3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1900px) {
+    .grid-item1 div .decoracion1 {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1291px) {
+    nav { display: none;
+    }
+}
