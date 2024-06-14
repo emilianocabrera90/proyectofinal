@@ -12,6 +12,9 @@ header {
     
     
     nav{
+
+    
+       
         
         ul{
             display: flex;
@@ -40,6 +43,11 @@ header {
             }
         }
         
+        div{
+            ul{
+                background-color: pink;
+            }
+        }
 
     }
 
@@ -56,14 +64,16 @@ header {
             font-family: $fuente;
 
         }
-        a:hover {
+        .contactoh:hover {
             color: purple;
             margin: 15px;
             transition: 0.5s;
+            
         }
 
         .hamburguesa{
-            padding-left: 20px;
+            
+            
             width: 60px;
 
         }
@@ -76,5 +86,31 @@ header {
         
         
     }
+
+    div{
+        
+        .dropdown-menu{
+            background-color: rgb(34, 32, 32);
+        }
+    }
+
+    .btn-secondary{
+        --bs-btn-color: #774747;
+        --bs-btn-bg: rgb(34, 32, 32);
+        --bs-btn-border-color: rgb(34, 32, 32);
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #5c636a;
+        --bs-btn-hover-border-color: #303f4b;
+        --bs-btn-focus-shadow-rgb: 130,138,145;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #565e64;
+        --bs-btn-active-border-color: #51585e;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #6c757d;
+        --bs-btn-disabled-border-color: #6c757d;
+    }
+   
+
 
  }

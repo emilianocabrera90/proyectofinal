@@ -26,6 +26,9 @@ header nav ul li a:hover {
   margin: 15px;
   transition: 0.5s;
 }
+header nav div ul {
+  background-color: pink;
+}
 header div {
   display: flex;
   align-items: center;
@@ -37,18 +40,36 @@ header div a {
   text-decoration: none;
   font-family: Arial, Helvetica;
 }
-header div a:hover {
+header div .contactoh:hover {
   color: purple;
   margin: 15px;
   transition: 0.5s;
 }
 header div .hamburguesa {
-  padding-left: 20px;
   width: 60px;
 }
 header .logo {
   padding-bottom: 10px;
   width: 300px;
+}
+header div .dropdown-menu {
+  background-color: rgb(34, 32, 32);
+}
+header .btn-secondary {
+  --bs-btn-color: #774747;
+  --bs-btn-bg: rgb(34, 32, 32);
+  --bs-btn-border-color: rgb(34, 32, 32);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #5c636a;
+  --bs-btn-hover-border-color: #303f4b;
+  --bs-btn-focus-shadow-rgb: 130,138,145;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #565e64;
+  --bs-btn-active-border-color: #51585e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #6c757d;
+  --bs-btn-disabled-border-color: #6c757d;
 }
 
 * {
