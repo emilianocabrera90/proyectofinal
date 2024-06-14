@@ -1,17 +1,16 @@
 header {
   display: flex;
+  height: 120px;
   background-color: rgb(34, 32, 32);
   justify-content: space-around;
   align-items: center;
   border-bottom: 2px solid rgb(190, 190, 19);
 }
-header img {
-  padding-bottom: 10px;
-}
 header nav ul {
   display: flex;
+  padding-top: 10px;
   list-style-type: none;
-  padding-right: 100px;
+  padding-right: 70px;
 }
 header nav ul li {
   margin: 5px;
@@ -33,6 +32,7 @@ header div {
   padding-right: 80px;
 }
 header div a {
+  margin: 5px;
   color: rgb(190, 190, 19);
   text-decoration: none;
   font-family: Arial, Helvetica;
@@ -42,11 +42,12 @@ header div a:hover {
   margin: 15px;
   transition: 0.5s;
 }
-header div img {
+header div .hamburguesa {
   padding-left: 20px;
   width: 60px;
 }
 header .logo {
+  padding-bottom: 10px;
   width: 300px;
 }
 
@@ -88,7 +89,8 @@ main {
   margin-bottom: 100px;
 }
 main section h1 {
-  color: rgb(195, 187, 34);
+  color: rgb(190, 190, 19);
+  font-family: Arial, Helvetica;
   text-decoration: underline;
   text-align: center;
   font-size: 50px;
@@ -140,6 +142,7 @@ a .logows {
 }
 
 footer {
+  height: 80px;
   background-color: rgb(34, 32, 32);
   text-align: center;
   padding-top: 10px;
@@ -149,7 +152,7 @@ footer {
 footer p {
   font-family: Arial, Helvetica;
   color: beige;
-  padding: 10px;
+  padding-top: 10px;
 }
 footer a {
   font-family: Arial, Helvetica;
@@ -158,6 +161,8 @@ footer a {
 }
 footer a:hover {
   color: purple;
+  margin-right: 10px;
+  transition: 0.5s;
 }
 
 main h3 {

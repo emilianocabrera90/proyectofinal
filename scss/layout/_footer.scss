@@ -2,7 +2,7 @@
 
 
 footer {
-
+    height: 80px;
     background-color: rgb(34, 32, 32); 
     text-align: center;
     padding-top: 10px;
@@ -13,18 +13,23 @@ footer {
     p{
         font-family: $fuente;
         color: beige;
-        padding: 10px;
+        padding-top: 10px;
 
     }
     a{
+        
         font-family: $fuente;
         text-decoration: none;
         color: $color-texto;
+        
+        
         
 
     }
     a:hover{
         color: purple;
+        margin-right: 10px;
+        transition: 0.5s;
            
     }
 }
