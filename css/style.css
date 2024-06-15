@@ -76,7 +76,7 @@ header .dropdown-divider {
 }
 header .dropdown-menu {
   --bs-dropdown-link-hover-color: rgb(190, 190, 19);
-  --bs-dropdown-link-hover-bg: rgb(51, 25, 194);
+  --bs-dropdown-link-hover-bg: rgb(40, 9, 219);
 }
 header .dropdown-item {
   width: 80%;
@@ -164,8 +164,12 @@ a .logows {
   position: fixed;
   right: 35px;
   bottom: 35px;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+}
+a .logows:hover {
+  transform: rotate(360deg);
+  transition: 3s;
 }
 
 footer {
@@ -346,7 +350,6 @@ main section p {
   width: 500px;
   height: 500px;
   padding-top: 100px;
-  padding-right: 15px;
 }
 
 .grid-item3 {
@@ -360,7 +363,7 @@ main section p {
   margin-left: 90px;
   width: 1100px;
   position: relative;
-  bottom: 70px;
+  bottom: 75px;
 }
 .grid-item3 p {
   font-family: Arial, Helvetica;
