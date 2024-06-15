@@ -111,6 +111,10 @@ body {
   box-sizing: content-box;
 }
 
+a:visited {
+  color: blue;
+}
+
 main {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -319,6 +323,16 @@ main section p {
 }
 @media screen and (max-width: 1291px) {
   nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 1291px) {
+  .contactoh {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .animation {
     display: none;
   }
 }
