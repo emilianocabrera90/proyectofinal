@@ -8,9 +8,9 @@ header {
 }
 header nav ul {
   display: flex;
-  padding-top: 10px;
+  padding-top: 14px;
   list-style-type: none;
-  padding-right: 70px;
+  padding-left: 100px;
 }
 header nav ul li {
   margin: 5px;
@@ -26,15 +26,12 @@ header nav ul li a:hover {
   margin: 15px;
   transition: 0.5s;
 }
-header nav div ul {
-  background-color: pink;
-}
 header div {
   display: flex;
   align-items: center;
-  padding-right: 80px;
 }
 header div a {
+  padding-left: 100px;
   margin: 5px;
   color: rgb(190, 190, 19);
   text-decoration: none;
@@ -112,10 +109,6 @@ body {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-}
-
-a:visited {
-  color: blue;
 }
 
 main {
