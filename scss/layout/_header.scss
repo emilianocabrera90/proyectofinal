@@ -91,11 +91,17 @@ header {
         
         .dropdown-menu{
             background-color: rgb(34, 32, 32);
+            a{
+                color: $color-texto;
+            }
+           
+            
         }
+        
     }
 
     .btn-secondary{
-        --bs-btn-color: #774747;
+        --bs-btn-color: rgb(190, 190, 19);
         --bs-btn-bg: rgb(34, 32, 32);
         --bs-btn-border-color: rgb(34, 32, 32);
         --bs-btn-hover-color: #fff;
@@ -110,7 +116,18 @@ header {
         --bs-btn-disabled-bg: #6c757d;
         --bs-btn-disabled-border-color: #6c757d;
     }
+
+    .dropdown-divider{
+        border-top: 2px solid rgba(190, 190, 19, 0.175);
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-link-hover-color: rgb(190, 190, 19);
+        --bs-dropdown-link-hover-bg: rgb(51, 25, 194);
+    }
+
+    .dropdown-item{
+        width: 80%;
+    }
    
-
-
  }
